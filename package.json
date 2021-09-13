@@ -1,6 +1,6 @@
 {
 	"name": "@avidian/hooks",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "React helper hooks for convenience",
 	"main": "lib/index.js",
 	"repository": "https://github.com/avidianity/hooks",
