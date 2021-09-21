@@ -22,7 +22,7 @@ export function useArrayComplex<T>(data?: T[]): UseArrayComplexReturn<T>;
 
 export function usePartial<T extends object>(data?: Partial<T>): [Partial<T>, React.Dispatch<React.SetStateAction<Partial<T>>>];
 
-export function useToggle(defaultValue: boolean): [boolean, React.Dispatch<React.SetStateAction<boolean | undefined>>];
+export function useToggle(defaultValue: boolean): [boolean, (value?: boolean | ((value: boolean) => boolean)) => void];
 
 export type UseTimeoutReturn = { set: Function; clear: Function };
 
