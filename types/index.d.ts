@@ -12,7 +12,7 @@ export type UseArrayComplexReturn<T> = {
 	array: T[];
 	set: React.Dispatch<React.SetStateAction<T[]>>;
 	push: (element: T) => void;
-	filter: (predicate: (value: T, index: number, array: T[]) => value is T, thisArg?: T[]) => void;
+	filter: (predicate: (value: T, index: number, array: T[]) => boolean, thisArg?: T[]) => void;
 	update: (index: number, element: T) => void;
 	remove: (index: number) => void;
 	clear: () => void;
