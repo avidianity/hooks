@@ -1,19 +1,19 @@
 {
 	"name": "@avidian/hooks",
-	"version": "1.0.5",
+	"version": "2.0.0",
 	"description": "React helper hooks for convenience",
 	"main": "lib/index.js",
+	"files": [
+		"lib/*",
+		"types/*"
+	],
 	"repository": "https://github.com/avidianity/hooks",
 	"author": "John Michael Manlupig",
 	"license": "MIT",
 	"private": false,
 	"typings": "types/index.d.ts",
 	"devDependencies": {
-		"react": "^17.0.2",
-		"react-router": "^5.2.1"
-	},
-	"peerDependencies": {
-		"react": "^17.0.2",
-		"react-router": "^5.2.1"
+		"@types/react": "^17.0.37",
+		"react": "^17.0.2"
 	}
 }
