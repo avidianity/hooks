@@ -1,6 +1,6 @@
 {
 	"name": "@avidian/hooks",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "React helper hooks for convenience",
 	"main": "lib/index.js",
 	"files": [
@@ -17,3 +17,4 @@
 		"react": "^17.0.2"
 	}
 }
+
