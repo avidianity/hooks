@@ -50,4 +50,17 @@ export type UseAsyncReturn<T> = {
 	error?: any;
 };
 
+export function useWindowWidth(): number;
+
+export type ResponsiveData<T> = {
+	value: T;
+	sm?: T;
+	md?: T;
+	lg?: T;
+	xl?: T;
+	xxl?: T;
+};
+
+export function useResponsiveValue<T>(data: ResponsiveData<T>): T;
+
 export function useAsync<T>(callback: () => Promise<T>, dependencies?: React.DependencyList): UseAsyncReturn<T>;
